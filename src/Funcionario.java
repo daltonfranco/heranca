@@ -36,4 +36,8 @@ public class Funcionario{
     public void setDepartamento(String departamento){
         this.departamento = departamento;
     }
+
+    public double bonificacao(){
+        return this.salario*0.1;
+    }
 }
